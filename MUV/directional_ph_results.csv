@@ -1,0 +1,69 @@
+Target,Model,AUC,EF%
+466,Logistic Regression,0.5556,1.0
+466,Random Forest,0.5139,0.5
+466,SVM (RBF Kernel),0.25,0.5
+466,XGBoost,0.3889,1.0
+548,Logistic Regression,0.5833,1.0
+548,Random Forest,0.625,1.5
+548,SVM (RBF Kernel),0.3611,0.5
+548,XGBoost,0.6389,1.5
+600,Logistic Regression,0.2222,0.5
+600,Random Forest,0.6111,1.5
+600,SVM (RBF Kernel),0.4167,0.5
+600,XGBoost,0.7222,1.5
+644,Logistic Regression,0.5833,1.0
+644,Random Forest,0.6111,1.0
+644,SVM (RBF Kernel),0.7222,1.5
+644,XGBoost,0.6944,1.5
+652,Logistic Regression,0.9167,2.0
+652,Random Forest,0.75,1.5
+652,SVM (RBF Kernel),0.2222,0.5
+652,XGBoost,0.8889,2.0
+689,Logistic Regression,0.3889,1.0
+689,Random Forest,0.5972,1.0
+689,SVM (RBF Kernel),0.6111,1.0
+689,XGBoost,0.7778,1.5
+692,Logistic Regression,0.7778,1.5
+692,Random Forest,0.5833,1.0
+692,SVM (RBF Kernel),0.25,0.5
+692,XGBoost,0.6389,1.5
+712,Logistic Regression,0.4444,1.0
+712,Random Forest,0.5833,1.5
+712,SVM (RBF Kernel),0.5833,1.5
+712,XGBoost,0.3611,1.0
+713,Logistic Regression,0.5278,1.0
+713,Random Forest,0.3889,1.0
+713,SVM (RBF Kernel),0.4444,1.0
+713,XGBoost,0.3611,1.0
+733,Logistic Regression,0.3333,0.5
+733,Random Forest,0.5417,0.5
+733,SVM (RBF Kernel),0.6389,1.5
+733,XGBoost,0.7222,1.5
+737,Logistic Regression,0.8889,1.5
+737,Random Forest,0.8889,2.0
+737,SVM (RBF Kernel),0.75,1.5
+737,XGBoost,0.8889,2.0
+810,Logistic Regression,0.2778,0.5
+810,Random Forest,0.1944,0.0
+810,SVM (RBF Kernel),0.5833,1.5
+810,XGBoost,0.3889,0.5
+832,Logistic Regression,0.6667,1.0
+832,Random Forest,0.8333,1.5
+832,SVM (RBF Kernel),0.2222,0.0
+832,XGBoost,0.6667,2.0
+846,Logistic Regression,0.75,1.5
+846,Random Forest,0.9444,2.0
+846,SVM (RBF Kernel),0.7778,1.5
+846,XGBoost,0.6667,1.0
+852,Logistic Regression,0.4444,1.0
+852,Random Forest,0.9444,2.0
+852,SVM (RBF Kernel),0.5,1.0
+852,XGBoost,0.9444,2.0
+858,Logistic Regression,0.5556,1.0
+858,Random Forest,0.2917,0.5
+858,SVM (RBF Kernel),0.4722,1.0
+858,XGBoost,0.1389,0.0
+859,Logistic Regression,0.6111,1.0
+859,Random Forest,0.4583,0.5
+859,SVM (RBF Kernel),0.4722,0.5
+859,XGBoost,0.6944,1.5
