@@ -172,10 +172,10 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
 
 ## Future Work
 
-1. **Rotation-Invariant Embeddings** – Integrate persistence diagrams invariant to molecular rotation.  
-2. **Topological Graph Neural Networks (GNNs)** – Fuse TDA features into molecular graph architectures.  
-3. **Expanded Benchmarks** – Apply to ChEMBL/ZINC for scalability validation.  
-4. **Explainability** – Map topological features to pharmacophoric regions for interpretability.
+1. **Rotation-Invariant Embeddings** - Integrate persistence diagrams invariant to molecular rotation.  
+2. **Topological Graph Neural Networks (GNNs)** - Fuse TDA features into molecular graph architectures.  
+3. **Expanded Benchmarks** - Apply to ChEMBL/ZINC for scalability validation.  
+4. **Explainability** - Map topological features to pharmacophoric regions for interpretability.
 
 
 
