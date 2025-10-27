@@ -35,7 +35,7 @@ This work integrates **topological data analysis (TDA)** to represent molecules 
 
 | Dataset | Targets | Description |
 |----------|----------|-------------|
-| **DUD-E (Directory of Useful Decoys, Enhanced)** | 8 | Diverse targets, standard benchmark for ligand–decoy discrimination |
+| **DUD-E (Directory of Useful Decoys, Enhanced)** | 8 | Diverse targets, standard benchmark for ligand-decoy discrimination |
 | **MUV (Maximum Unbiased Validation)** | 17 | Harder, class-balanced dataset with realistic decoy distributions |
 
 Each ligand and decoy was represented as a **3D point cloud**, from which shape and topological descriptors were extracted.  
@@ -52,8 +52,8 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
 - XGBoost (Gradient Boosted Trees)
 
 **Performance metrics:**
-- **AUC (Area Under ROC Curve)** – overall classification quality  
-- **EF% (Enrichment Factor 15%)** – early discovery efficiency, critical in screening pipelines  
+- **AUC (Area Under ROC Curve)** - overall classification quality  
+- **EF% (Enrichment Factor 15%)** - early discovery efficiency, critical in screening pipelines  
 
 ---
 
@@ -150,13 +150,10 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
 
 1. **Topological Features Add Depth**  
    Persistent Homology (H₀ + H₁) introduced meaningful structure-awareness beyond geometry.
-
 2. **Orientation Matters**  
    Directional Complex outperformed all others by encoding both **shape** and **directionality** - essential for realistic 3D molecular discrimination.
-
 3. **Augmentation ≠ Always Improvement**  
    While it improved generalization slightly, naive rotation augmentation introduced redundancy.
-
 4. **Dataset Complexity Drives Difficulty**  
    MUV’s balanced decoys reduced separability; Directional Complex handled this best.
 
