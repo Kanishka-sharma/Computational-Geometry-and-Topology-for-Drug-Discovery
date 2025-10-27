@@ -6,7 +6,7 @@
 ---
 
 ### Project Summary
-**ShapeTDA** explores how *computational geometry* and *topological data analysis (TDA)* can enhance **ligand-based virtual screening** — the process of identifying active drug-like molecules using 3D molecular structures.  
+**ShapeTDA** explores how *computational geometry* and *topological data analysis (TDA)* can enhance **ligand-based virtual screening** - the process of identifying active drug-like molecules using 3D molecular structures.  
 
 This project introduces **shape- and topology-aware molecular descriptors**, evaluated across the **DUD-E** and **MUV** datasets with multiple ML models, to assess how geometry and topology can jointly improve early hit discovery in drug design.
 
@@ -15,7 +15,7 @@ This project introduces **shape- and topology-aware molecular descriptors**, eva
 ## Overview
 
 Traditional molecular descriptors such as **USR (Ultrafast Shape Recognition)** capture only geometric atom distributions, missing vital *connectivity* and *orientation* cues.  
-This work integrates **topological data analysis (TDA)** to represent molecules as rich 3D manifolds — capturing not just *where atoms are*, but *how they are connected and arranged in space.*
+This work integrates **topological data analysis (TDA)** to represent molecules as rich 3D manifolds - capturing not just *where atoms are*, but *how they are connected and arranged in space.*
 
 ---
 
@@ -25,7 +25,7 @@ This work integrates **topological data analysis (TDA)** to represent molecules 
 |----|-----------------|---------------|
 | 1️ | **USR (Ultrafast Shape Recognition)** | Classical geometric descriptor based on distance distributions |
 | 2️ | **Persistent Homology (H₀)** | Captures connected components (molecular fragments) |
-| 3️ | **Persistent Homology (H₀ + H₁)** | Adds loop-based topology — cavities and ring structures |
+| 3️ | **Persistent Homology (H₀ + H₁)** | Adds loop-based topology - cavities and ring structures |
 | 4️ | **Directional Complex Descriptor** | Encodes *orientation-aware topology* via spatial directionality |
 | 5️ | **Augmented Topological Descriptor** | Introduces rotational augmentation for robustness testing |
 
@@ -53,7 +53,7 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
 
 **Performance metrics:**
 - **AUC (Area Under ROC Curve)** – overall classification quality  
-- **EF% (Enrichment Factor @15%)** – early discovery efficiency, critical in screening pipelines  
+- **EF% (Enrichment Factor 15%)** – early discovery efficiency, critical in screening pipelines  
 
 ---
 
@@ -86,7 +86,7 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
 **Observations:**
 - USR served as a **baseline**, confirming geometric limitations (AUC ≈ 0.70).  
 - Persistent Homology (H₀ + H₁) improved to **0.87 AUC**, proving the value of topological loops.  
-- Directional Complex achieved **highest EF% (1.887 ± 0.234)** — excelling in early enrichment.  
+- Directional Complex achieved **highest EF% (1.887 ± 0.234)** - excelling in early enrichment.  
 - Augmented descriptors added robustness but introduced slight feature noise.
 
 ---
@@ -123,8 +123,8 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
 | tryb1 | 0.863 | 1.843 |
 
 **Insights:**
-- *Best-performing:* `hivrt`, `hivpr` — stable, well-defined binding sites.  
-- *Most challenging:* `cxcr4`, `cp3a4` — highly flexible, dynamic proteins.  
+- *Best-performing:* `hivrt`, `hivpr` - stable, well-defined binding sites.  
+- *Most challenging:* `cxcr4`, `cp3a4` - highly flexible, dynamic proteins.  
 - *Implication:* Descriptor limits are tied more to **biological complexity** than to model type.
 
 ---
@@ -152,10 +152,10 @@ All descriptors were evaluated across four classifiers to benchmark generalizabi
    Persistent Homology (H₀ + H₁) introduced meaningful structure-awareness beyond geometry.
 
 2. **Orientation Matters**  
-   Directional Complex outperformed all others by encoding both **shape** and **directionality** — essential for realistic 3D molecular discrimination.
+   Directional Complex outperformed all others by encoding both **shape** and **directionality** - essential for realistic 3D molecular discrimination.
 
 3. **Augmentation ≠ Always Improvement**  
-   While it improved generalization slightly, naïve rotation augmentation introduced redundancy.
+   While it improved generalization slightly, naive rotation augmentation introduced redundancy.
 
 4. **Dataset Complexity Drives Difficulty**  
    MUV’s balanced decoys reduced separability; Directional Complex handled this best.
